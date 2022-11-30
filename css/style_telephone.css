@@ -1,0 +1,369 @@
+/*-----------------------telephones-----------------------------*/
+
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .blocpage {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /*-----------------header-------------------------------------------*/
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin: unset;
+    margin-left: 30%;
+  }
+
+  .ancre {
+    font-size: 18px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  nav ul {
+    width: 100%;
+  }
+
+  nav li {
+    width: 50%;
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 10px;
+    margin: unset;
+    text-align: center;
+  }
+
+  nav span {
+    top: 40px;
+    right: 20px;
+  }
+
+  nav li:hover {
+    border-bottom-color: #0065fc;
+  }
+
+  #ancre a:hover {
+    border-top: none;
+  }
+
+  /*----------------------------titre_et_ sous_titre------------------------------------------------*/
+
+  .titre {
+    margin: 30px 0 0 20px;
+    padding-right: 15px;
+  }
+
+  .sous_titre {
+    font-size: 18px;
+    margin-left: 25px;
+  }
+
+  /*--------------------recherche----------------------------------------------*/
+
+  .blocsaisie {
+    margin: 30px 0 0 15px;
+  }
+
+  input {
+    width: 55%;
+  }
+
+  #recherche::placeholder {
+    font-size: 20px;
+  }
+
+  #recherche {
+    font-size: 20px;
+  }
+
+  .bouton {
+    width: 55px;
+    border-radius: 25%;
+  }
+
+  #search {
+    display: unset;
+    font-size: 18px;
+  }
+
+  #text_rechercher {
+    display: none;
+  }
+
+  /*-----------------------filtres-------------------------------------------*/
+
+  #titre_filtre {
+    margin: 0 0 0 20px;
+    font-size: 18px;
+  }
+
+  .filtres ul {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: -70px;
+  }
+
+  #eco {
+    margin: 10px 0 0 10px;
+    width: 180px;
+    font-size: 17px;
+  }
+
+  #famille {
+    margin: unset;
+    position: relative;
+    left: 205px;
+    bottom: 55px;
+    width: 145px;
+  }
+
+  #romance {
+    margin: 15px 0 0 10px;
+    position: relative;
+    bottom: 55px;
+    width: 180px;
+  }
+
+  #animaux {
+    margin: 15px 0 0 10px;
+    position: relative;
+    bottom: 55px;
+    width: 240px;
+  }
+
+  #info {
+    margin-left: 15px;
+  }
+
+  .infos {
+    position: relative;
+    bottom: 40px;
+    font-size: 18px;
+  }
+
+  .titre_info {
+    margin-left: unset;
+  }
+
+  .titre_info {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  #ecart {
+    padding-left: 45px;
+  }
+
+  /*--------------------------bloc-----les_plus_populaires---------------------------------------*/
+
+  .milieu_de_page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bloc_les_plus_populaires {
+    width: 100%;
+    height: 585px;
+    margin: unset;
+    position: relative;
+    bottom: 640px;
+  }
+
+  #titre_populaires {
+    padding-left: 20px;
+  }
+
+  #etoile {
+    padding: unset;
+  }
+
+  .carte_populaires {
+    margin: 30px 0 0 20px;
+    width: 89%;
+  }
+
+  /*--------------------------bloc---------hebergements-----------------------------*/
+
+  #bloc_hebergements {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: unset;
+    position: relative;
+    top: 590px;
+  }
+
+  #titre_hebergements {
+    margin: unset;
+    margin: 20px;
+  }
+
+  /*----------------carte_hebergement------------------------*/
+
+  .carte_heberg {
+    width: 90%;
+    height: 200px;
+    margin-left: 5px;
+    box-shadow: 5px 10px #f2f2f2;
+  }
+
+  .carte_heberg img {
+    width: 100%;
+    height: 115px;
+  }
+
+  #legende_heberg {
+    height: 80px;
+  }
+
+  /*-------------------------bloc             -------activites--------------------------------------*/
+
+  #bloc_activites {
+    width: 100%;
+    position: relative;
+    top: 900px;
+  }
+
+  #titre_activites {
+    margin: 10px 0 5px 20px;
+  }
+
+  .les_cartes_activites {
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*---------------carte_activite_1--------------*/
+
+  .carte_activites_1 {
+    width: 90%;
+    height: 190px;
+    margin: 25px 0 0 20px;
+  }
+
+  .carte_activites_1 img {
+    width: 100%;
+    height: 135px;
+  }
+
+  /*---------------carte_activite_2--------------*/
+
+  .carte_activites_2 {
+    width: 90%;
+    height: 190px;
+    margin: 30px 0 0 20px;
+    position: relative;
+    bottom: 70px;
+  }
+
+  .carte_activites_2 img {
+    width: 100%;
+    height: 135px;
+  }
+
+  /*---------------carte_activite_3--------------*/
+
+  .carte_activites_3 {
+    width: 90%;
+    height: 190px;
+    margin: 0px 0 0 20px;
+    position: relative;
+    bottom: 110px;
+  }
+
+  .carte_activites_3 img {
+    width: 100%;
+    height: 135px;
+  }
+
+  /*---------------carte_activite_4--------------*/
+
+  .carte_activites_4 {
+    width: 90%;
+    height: 190px;
+    margin: 15px 0 0 20px;
+    position: relative;
+    bottom: 160px;
+  }
+
+  .carte_activites_4 img {
+    width: 100%;
+    height: 135px;
+  }
+
+  /*---------------carte_activite_5--------------*/
+
+  .carte_activites_5 {
+    width: 90%;
+    height: 190px;
+    margin: 30px 0 0 20px;
+    position: relative;
+    bottom: 230px;
+  }
+
+  .carte_activites_5 img {
+    width: 100%;
+    height: 135px;
+  }
+
+  /*---------------carte_activite_6--------------*/
+
+  .carte_activites_6 {
+    width: 90%;
+    height: 190px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 270px;
+  }
+
+  .carte_activites_6 img {
+    width: 100%;
+    height: 135px;
+  }
+
+  #parc {
+    width: 100%;
+    height: 50px;
+  }
+
+  /*---------------------footer---------------------------------*/
+
+  .pied_de_page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 680px;
+    height: 550px;
+    padding: 50px 0 0 30px;
+  }
+
+  .contenu_pied_de_page2 {
+    margin-top: 45px;
+  }
+
+  .contenu_pied_de_page3 {
+    margin-top: 45px;
+  }
+}

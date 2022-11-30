@@ -1,0 +1,233 @@
+/*----------------------------------------tablettes--------------------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  body {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+
+  .blocpage {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /*-----------------titre_et_sous_titre----------------------------------------------*/
+
+  .ancre {
+    position: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 140px;
+  }
+
+  #ancre a:hover {
+    transition: 0.3s;
+    border-top: 3px solid #0065fc;
+    color: #0065fc;
+    padding-top: 43px;
+  }
+
+  .sous-titre {
+    margin-left: 20px;
+  }
+
+  /*-----------------------filtres-------------------------------------------*/
+
+  .blocrecherche {
+    margin-left: 20px;
+  }
+
+  .filtres {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .filtres ul {
+    display: inline;
+    position: relative;
+    top: 55px;
+  }
+
+  #eco {
+    position: relative;
+    right: 100px;
+  }
+
+  #famille {
+    position: relative;
+    bottom: 55px;
+    left: 140px;
+  }
+
+  #romance {
+    position: relative;
+    bottom: 45px;
+    right: 95px;
+  }
+
+  #animaux {
+    position: relative;
+    left: 140px;
+    bottom: 100px;
+  }
+
+  .infos {
+    margin: unset;
+  }
+
+  /*---------------------bloc----hebergements--------------------------------*/
+
+  .milieu_de_page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #bloc_hebergements {
+    width: 100%;
+    height: 850px;
+    flex-basis: auto;
+  }
+
+  .carte_heberg {
+    width: 45%;
+    margin-left: 20px;
+  }
+
+  /*--------------------bloc--------les_plus_populaires----------------------------*/
+
+  .bloc_les_plus_populaires {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    right: 50px;
+    top: 30px;
+    width: 100%;
+  }
+
+  .carte_populaires {
+    width: 90%;
+    height: 205px;
+  }
+
+  .carte_populaires img {
+    width: 50%;
+    height: 195px;
+  }
+
+  /*-------------------bloc---------activites-------------------------------------------*/
+
+  #bloc_activites {
+    margin-top: 230px;
+    width: 95%;
+    position: relative;
+  }
+
+  #titre_activites {
+    margin-left: 20px;
+  }
+
+  .les_cartes_activites {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .carte_activites_1 {
+    width: 47%;
+    height: 305px;
+    margin-left: 20px;
+  }
+
+  .carte_activites_1 img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .carte_activites_2 {
+    width: 47%;
+    height: 305px;
+    margin: 0px 0 0 20px;
+  }
+
+  .carte_activites_2 img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .carte_activites_3 {
+    width: 47%;
+    height: 305px;
+    margin: 100px 0 0 20px;
+  }
+
+  .carte_activites_3 img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .carte_activites_4 {
+    width: 47%;
+    height: 305px;
+    margin: 50px 0 0 20px;
+  }
+
+  .carte_activites_4 img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .carte_activites_5 {
+    width: 47%;
+    height: 305px;
+    margin-left: 16px;
+  }
+
+  .carte_activites_5 img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .carte_activites_6 {
+    width: 47%;
+    height: 305px;
+    margin-top: 50px;
+    /*position: absolute;
+    top: 750px;
+    left: 360px;*/
+  }
+
+  .carte_activites_6 img {
+    width: 100%;
+    height: 250px;
+  }
+
+  /*-----------------------------footer-------------------------------------------*/
+
+  .pied_de_page {
+    position: relative;
+    top: 550px;
+    height: 350px;
+  }
+
+  .contenu_pied_de_page1 {
+    width: 35%;
+  }
+
+  .contenu_pied_de_page2 {
+    width: 35%;
+    margin-left: 15px;
+  }
+
+  .contenu_pied_de_page3 {
+    width: 30%;
+  }
+}
