@@ -1,6 +1,7 @@
 /*----------------------------------------tablettes--------------------------------*/
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 993px) {
+
   html,
   body {
     overflow-x: hidden;
@@ -200,9 +201,6 @@
     width: 47%;
     height: 305px;
     margin-top: 50px;
-    /*position: absolute;
-    top: 750px;
-    left: 360px;*/
   }
 
   .carte_activites_6 img {
